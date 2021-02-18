@@ -132,12 +132,6 @@ a:active {
   padding: 0px;
 }
 
-.contact-information {
-  text-align: center;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
 .grid__item {
   display: inline-block;
   width: 33%;
