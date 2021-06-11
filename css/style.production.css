@@ -167,6 +167,16 @@ a:active {
   padding: 0px;
 }
 
+.features-list {
+  list-style-type: none;
+  padding: 0 0 0 120px;
+  text-align: left;
+}
+
+.project-link {
+  margin: 50px;
+}
+
 .grid__item {
   display: inline-block;
   width: 33%;

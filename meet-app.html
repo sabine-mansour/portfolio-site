@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Sabine Mansour - Portfolio</title>
+  <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.production.css" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+  <header class="page-header">
+    <img src="img/logo.svg" alt="logo with my name" class="page-header__item">
+    <nav class="page-header__item">
+      <ul role="menubar" class="navigation-list">
+        <li role="presentation">
+          <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+        </li>
+        <li role="presentation">
+          <a href="about.html" role="menuitem" class="navigation-list__item">About Me</a>
+        </li>
+        <li role="presentation">
+          <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+        </li>
+        <li role="presentation">
+          <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="about">
+    <h1>Meet App</h1>
+
+    <p>
+      The Meet App is a serverless, progressive web application (PWA), build with React. The Meet App allows users to
+      view upcoming web development events, search for a city and get a list of events hosted in that city. The App uses
+      the Google Calendar API (to fetch upcoming events) and OAuth2 authentication flow. For this app, I used a
+      test-driven development (TDD) approach.
+    </p>
+
+    <img src="img/meet-app/meet-app-display.png">
+
+    <h3>
+      Serverless | Progressive Web App | Data Visualization
+      React | AWS | Test-Driven Development | Object-Oriented Programming
+    </h3>
+    <h2>Key Features</h2>
+    With the Meet App, users can:
+    <ul class="features-list">
+      <li> Filter events by city. </li>
+      <li> Show/hide event details. </li>
+      <li> Specify number of events to be displayed.</li>
+      <li>Use the app when offline.</li>
+      <li>Add an app shortcut to the home screen.</li>
+      <li> charts showing the number of upcoming events by city.</li>
+    </ul>
+
+
+
+
+    <h2>Objectives</h2>
+
+    <p> The focus of this project was to follow a test-driven development approach and create test suites that include
+      unit-testing, integration-testing, and end-to-end testing. The app uses AWS Lambda for the authorization server
+      (instead of using a traditional server) and implement a server less structure. Google OAuth 2.0 is used to access
+      the
+      Google Calendar API. The app passes Lighthouse PWA checklist and users are able to install the app on their
+      browser or
+      mobile home screen. Finally, two graphs has been implemented (using recharts) to provide users with data
+      visualization.
+    </p>
+
+    <div class="project-link">
+      <a href="https://sabine-mansour.github.io/meet-app/" class="button" target="_blank">
+        Visit Website</a>
+      <a href="https://github.com/sabine-mansour/meet-app" class="button" target="_blank">
+        View Code</a>
+
+    </div>
+
+  </div>
+
+  <footer class="page-footer">
+    <p>
+      You can find me on:
+    </p>
+    <div class="social-media">
+      <a href="https://github.com/sabine-mansour/" target="_blank"><img src="img/github_icon.svg" alt="Github"></a>
+      <img src="img/twitter_icon.svg" alt="Twitter">
+      <a href="https://www.linkedin.com/in/sabinemansour/" target="_blank"><img src="img/linkedin_icon.svg"
+          alt="LinkedIn"></a>
+    </div>
+
+  </footer>
+
+  <script src="js/tota11y.min.js"></script>
+</body>
+
+</html>
