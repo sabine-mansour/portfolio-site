@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Sabine Mansour - Portfolio</title>
+  <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.production.css" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+  <header class="page-header">
+    <img src="img/logo.svg" alt="logo with my name" class="page-header__item">
+    <nav class="page-header__item">
+      <ul role="menubar" class="navigation-list">
+        <li role="presentation">
+          <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+        </li>
+        <li role="presentation">
+          <a href="about.html" role="menuitem" class="navigation-list__item">About Me</a>
+        </li>
+        <li role="presentation">
+          <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+        </li>
+        <li role="presentation">
+          <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="about">
+    <h1>FliXInfo</h1>
+
+    <p>
+      FliXInfo is a complete web application (client-side and server-side) built
+      using full-stack JavaScript technologies. The app provides users with access to information about different
+      movies, directors, and genres. Users will be able to sign up, update their
+      personal information, and create a list of their favorite movie.
+    </p>
+
+    <img src="img/flixinfo/flixinfo-app-display.png">
+
+    <h3>
+      MERN | MEAN | Node.js | Express.js | React | Angular | MongoDB | Data Security
+    </h3>
+
+    <h2>Key Features</h2>
+
+    The FliXInfo app can:
+    <ul class="features-list">
+      <li> Return a list of ALL movies to the user. </li>
+      <li> Return data (description, genre, director, image) about a
+        single movie by title to the user. </li>
+      <li> Return data about a genre (description) by name. </li>
+      <li> Return data about a director (bio, birth year, death year) by name. </li>
+      <li> Allow new users to register. </li>
+      <li> Allow users to update their user info (username, password, email, date of birth). </li>
+      <li> Allow users to add a movie to their list of favorites. </li>
+      <li> Allow users to remove a movie from their list of favorites. </li>
+      <li> Allow existing users to deregister. </li>
+    </ul>
+
+    <h2>Objectives</h2>
+
+    <p> The focus of this project was to create a complete web app: a REST API which interacts with a database that
+      stores data about different movies, was first created using Node.js and Express.js. The client-side of the same
+      application, was then built using two seperate frontend clients:
+      React & Angular.
+      The backend is hosted with Heroku and uses a JWT based authentication.
+    </p>
+
+    <div class="project-link">
+      <a href="https://flixinfo.herokuapp.com/documentation.html" class="button" target="_blank">
+        View API on Heroku</a>
+      <a href="https://github.com/sabine-mansour/movie-api" class="button" target="_blank">
+        View Backend Code</a>
+      <br>
+      <a href="https://flixinfo.netlify.app/" class="button" target="_blank">
+        Visit React App</a>
+      <a href="https://github.com/sabine-mansour/myflix-client" class="button" target="_blank">
+        View React Code</a>
+      <br>
+      <a href="https://sabine-mansour.github.io/myFlix-Angular-client/welcome" class="button" target="_blank">
+        Visit Angular App</a>
+      <a href="https://github.com/sabine-mansour/myFlix-Angular-client" class="button" target="_blank">
+        View Angular code</a>
+
+    </div>
+
+  </div>
+
+  <footer class="page-footer">
+    <p>
+      You can find me on:
+    </p>
+    <div class="social-media">
+      <a href="https://github.com/sabine-mansour/" target="_blank"><img src="img/github_icon.svg" alt="Github"></a>
+      <img src="img/twitter_icon.svg" alt="Twitter">
+      <a href="https://www.linkedin.com/in/sabinemansour/" target="_blank"><img src="img/linkedin_icon.svg"
+          alt="LinkedIn"></a>
+    </div>
+
+  </footer>
+
+  <script src="js/tota11y.min.js"></script>
+</body>
+
+</html>
